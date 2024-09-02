@@ -1,0 +1,46 @@
+body {
+    font-family: "Roboto","sans-serif";
+    font-weight: 500;
+    font-style: normal;
+    color: #2E2F42;
+  }
+  body b{
+    font-size: 20px;
+    color: #2E2F42;
+  }
+  body p{
+    font-display: #434455;
+    font-size: 16px;
+  }
+  .logo-web{
+    font-family: "Raleway", "sans-serif";
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 1.3em;
+    text-decoration: none;
+    color: #4D5AE5;
+  }
+  .logo-studio{
+    font-family: "Raleway", "sans-serif";
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 1.3em;
+    text-decoration: none;
+    color:#2E2F42;
+  }
+  h1{
+    background-color:#2E2F42;
+    color: #FFFFFF;
+    font-size: 3.5;
+    font-weight: 700;
+    line-height: 3.75;
+  }
+  .main-menu{
+    color: #2E2F42;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 500;
+    list-style-type: none;
+    text-align: left;
+  }
+  
