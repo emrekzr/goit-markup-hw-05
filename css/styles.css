@@ -20,7 +20,7 @@ body p {
   font-weight: 700;
   font-size: 1.125em;
   font-style: normal;
-  letter-spacing: -3%;
+  letter-spacing: 3%;
   line-height: 1.3em;
   text-decoration: none;
   color: #4d5ae5;
@@ -30,7 +30,7 @@ body p {
   font-weight: 700;
   font-size: 1.125em;
   font-style: normal;
-  letter-spacing: -3%;
+  letter-spacing:  3%;
   line-height: 1.3em;
   text-decoration: none;
   color: #2e2f42;
