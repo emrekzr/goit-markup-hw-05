@@ -19,6 +19,8 @@ body p {
   font-family: "Raleway", "sans-serif";
   font-weight: 700;
   font-size: 1.125em;
+  font-style: normal;
+  letter-spacing: -3%;
   line-height: 1.3em;
   text-decoration: none;
   color: #4d5ae5;
@@ -27,6 +29,8 @@ body p {
   font-family: "Raleway", "sans-serif";
   font-weight: 700;
   font-size: 1.125em;
+  font-style: normal;
+  letter-spacing: -3%;
   line-height: 1.3em;
   text-decoration: none;
   color: #2e2f42;
@@ -48,6 +52,7 @@ body p {
   border-radius: 4px;
   background-color: #4d5ae5;
   color:#ffffff;
+  cursor: pointer;
 }
 .or-ser-button:hover{
   font-family: "Roboto", "sans-serif";
@@ -58,6 +63,7 @@ body p {
   border-radius: 4px;
   background-color: #404bbf;
   color:#ffffff;
+  cursor: pointer;
 }
 .service-info li {
   font-family: "Roboto", "sans-serif";
