@@ -109,10 +109,10 @@ body p {
 }
 
 .service-item {
-  display: flex; /* Flexbox düzenini aktifleştirir */
-  flex-direction: column; /* İçeriği dikeyde sıralar */
-  align-items: center; /* İçeriği yatayda ortalar */
-  text-align: center; /* Metni yatayda ortalar */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  text-align: center; 
 }
 
 h1 {
