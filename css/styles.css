@@ -53,6 +53,7 @@ body p {
   background-color: #4d5ae5;
   color:#ffffff;
   cursor: pointer;
+  text-align: center;
 }
 .or-ser-button:hover{
   font-family: "Roboto", "sans-serif";
@@ -63,7 +64,8 @@ body p {
   border-radius: 4px;
   background-color: #404bbf;
   color:#ffffff;
-  cursor: pointer;
+  cursor: pointer; 
+  text-align: center;
 }
 .service-info li {
   font-family: "Roboto", "sans-serif";
@@ -96,8 +98,9 @@ h1 {
   font-size: 1rem;
   line-height: 1.5rem;
   list-style-type: none;
-  text-align: left;
   text-decoration: none;
+  display: inline;
+  width: 200px;
 }
 .main-menu li a:hover{
   font-family: "Roboto", "sans-serif";
@@ -106,8 +109,8 @@ h1 {
   font-size: 1rem;
   line-height: 1.5rem;
   list-style-type: none;
-  text-align: left;
   text-decoration: none;
+  display: inline;
 }
 .class-studio:active{
   font-family: "Roboto", "sans-serif";
@@ -117,7 +120,7 @@ h1 {
   line-height: 1.5rem;
   font-weight: 500;
   list-style-type: none;
-  text-align: left;
+  display: flex;
   text-decoration: none;
 }
 .contact a {
@@ -127,8 +130,12 @@ h1 {
   font-size: 1rem;
   line-height: 1.5rem;
   list-style-type: none;
-  text-align: left;
   text-decoration: none;
+  text-align: right;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 240px;
 }
 .contact a:hover{
   font-family: "Roboto", "sans-serif";
@@ -137,8 +144,8 @@ h1 {
   font-size: 1rem;
   line-height: 1.5rem;
   list-style-type: none;
-  text-align: left;
   text-decoration: none;
+  text-align: center;
 }
 .footer {
   background-color: #2e2f42;
@@ -156,10 +163,33 @@ h1 {
 }
 .header{
   background-color: #e7e9fc;
+  display: flex;
+  align-items: center;
+  width: 1440px;
 }
 .our-portfolio{
   background-color: #e7e9fc;
 }
 .effective-button{
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
 }
+.main-menu{
+  display: flex;
+  list-style: none;
+  padding-right: 10px;
+}
+.main-menu li{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo-webstudio{
+  margin-left: 40px;
+}
+.contact{
+  display: inline;
+  text-align: center;
+  margin-right: 40px;
+}
+
