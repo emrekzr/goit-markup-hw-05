@@ -30,7 +30,7 @@ body p {
   font-weight: 700;
   font-size: 1.125em;
   font-style: normal;
-  letter-spacing:  3%;
+  letter-spacing: 3%;
   line-height: 1.3em;
   text-decoration: none;
   color: #2e2f42;
@@ -43,15 +43,15 @@ body p {
   text-decoration: none;
   color: #f4f4fd;
 }
-.or-ser-button{
+.or-ser-button {
   font-family: "Roboto", "sans-serif";
   font-weight: 500;
   width: 10.5rem;
   height: 3.5rem;
-  padding: 1rem,2rem;
+  padding: 1rem, 2rem;
   border-radius: 4px;
   background-color: #4d5ae5;
-  color:#ffffff;
+  color: #ffffff;
   cursor: pointer;
   text-align: center;
   display: flex;
@@ -59,26 +59,46 @@ body p {
   align-items: center;
   flex-direction: column;
 }
-.or-ser-button:hover{
+.or-ser-button:hover {
   font-family: "Roboto", "sans-serif";
   font-weight: 500;
   width: 10.5rem;
   height: 3.5rem;
-  padding: 1rem,2rem;
+  padding: 1rem, 2rem;
   border-radius: 4px;
   background-color: #404bbf;
-  color:#ffffff;
-  cursor: pointer; 
+  color: #ffffff;
+  cursor: pointer;
   text-align: center;
 }
+.service-info-sec {
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+}
+
+.service-info {
+  display: flex; 
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+  gap: 20px; 
+}
+
 .service-info li {
+  display: flex; 
+  flex-direction: column; 
   font-family: "Roboto", "sans-serif";
   font-weight: 400;
   font-size: 1.25rem;
   font-style: normal;
   line-height: 1.5rem;
   color: #2e2f42;
+  text-align: center;
 }
+
 .service-info li p {
   font-family: "Roboto", "sans-serif";
   font-weight: 400;
@@ -87,6 +107,14 @@ body p {
   line-height: 1.5rem;
   color: #434455;
 }
+
+.service-item {
+  display: flex; /* Flexbox düzenini aktifleştirir */
+  flex-direction: column; /* İçeriği dikeyde sıralar */
+  align-items: center; /* İçeriği yatayda ortalar */
+  text-align: center; /* Metni yatayda ortalar */
+}
+
 h1 {
   font-family: "Roboto", "sans-serif";
   background-color: #2e2f42;
@@ -106,7 +134,7 @@ h1 {
   display: inline;
   width: 200px;
 }
-.main-menu li a:hover{
+.main-menu li a:hover {
   font-family: "Roboto", "sans-serif";
   font-weight: 500;
   color: #404bbf;
@@ -116,7 +144,7 @@ h1 {
   text-decoration: none;
   display: inline;
 }
-.class-studio:active{
+.class-studio:active {
   font-family: "Roboto", "sans-serif";
   font-weight: 500;
   color: #404bbf;
@@ -139,7 +167,7 @@ h1 {
   padding-left: 20px;
   padding-right: 20px;
 }
-.contact a:hover{
+.contact a:hover {
   font-family: "Roboto", "sans-serif";
   font-weight: 400;
   color: #404bbf;
@@ -159,19 +187,19 @@ h1 {
   line-height: 1.5rem;
   color: #e7e9fc;
 }
-.our-team{
+.our-team {
   background-color: #f4f4fd;
 }
-.header{
+.header {
   background-color: #e7e9fc;
   display: flex;
   align-items: center;
   width: 1440px;
 }
-.our-portfolio{
+.our-portfolio {
   background-color: #e7e9fc;
 }
-.effective-button{
+.effective-button {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
@@ -181,20 +209,19 @@ h1 {
   align-items: center;
   flex-direction: column;
 }
-.main-menu{
+.main-menu {
   display: flex;
   list-style: none;
   padding-right: 10px;
 }
-.main-menu li{
+.main-menu li {
   padding-left: 20px;
   padding-right: 20px;
 }
-.logo-webstudio{
+.logo-webstudio {
   margin-left: 40px;
 }
-.contact{
+.contact {
   display: inline;
   margin-right: 40px;
 }
-
