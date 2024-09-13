@@ -15,7 +15,7 @@ li {
   font: inherit;
   vertical-align: baseline;
 }
-button {
+button{
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
@@ -142,7 +142,6 @@ body p {
 }
 
 .service-item {
-  width: calc((100% - 72px) / 4);
   display: flex;
   flex-direction: column;
   font-size: 1.25rem;
@@ -226,17 +225,15 @@ h1 {
   line-height: 1.5rem;
   color: #e7e9fc;
 }
-.our-team-h2 {
+.our-team-h2{
   padding-bottom: 72px;
   text-align: center;
 }
 .our-team-container {
   background-color: #f4f4fd;
-  display: flex;
+  display: block;
   text-align: center;
   font-size: 2rem;
-  height: 732px;
-  flex-direction: column;
   align-items: center;
   padding: 120px;
 }
@@ -271,7 +268,7 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
 }
-.portfolio-flex {
+.portfolio-flex{
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -356,7 +353,6 @@ h1 {
   gap: 8px;
 }
 .mark-1 {
-  width: calc((100% - 72px) / 4);
   height: 380px;
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
@@ -366,7 +362,6 @@ h1 {
   box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 .tom-2 {
-  width: calc((100% - 72px) / 4);
   height: 380px;
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
@@ -376,7 +371,6 @@ h1 {
   box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 .camila-3 {
-  width: calc((100% - 72px) / 4);
   height: 380px;
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
@@ -386,7 +380,6 @@ h1 {
   box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 .dani-4 {
-  width: calc((100% - 72px) / 4);
   height: 380px;
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
