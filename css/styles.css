@@ -15,6 +15,9 @@ li {
   font: inherit;
   vertical-align: baseline;
 }
+img {
+  display: block;
+}
 button{
   margin: 0 auto;
   min-width: 169px;
@@ -234,6 +237,7 @@ h1 {
   display: block;
   text-align: center;
   font-size: 2rem;
+  justify-content: center;
   align-items: center;
   padding: 120px;
 }
