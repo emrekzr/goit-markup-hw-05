@@ -15,18 +15,20 @@ li {
   font: inherit;
   vertical-align: baseline;
 }
-button{
+button {
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
 }
 ul {
-  gap: 40px;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   list-style-type: none;
+  padding: 0 auto;
 }
 body {
   font-family: "Roboto", "sans-serif";
@@ -212,7 +214,6 @@ h1 {
 }
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
   height: 312px;
   padding-left: 156px;
   padding-top: 100px;
@@ -225,22 +226,22 @@ h1 {
   line-height: 1.5rem;
   color: #e7e9fc;
 }
-.our-team-h2{
+.our-team-h2 {
   padding-bottom: 72px;
+  text-align: center;
 }
 .our-team-container {
   background-color: #f4f4fd;
-  display: block;
+  display: flex;
   text-align: center;
   font-size: 2rem;
-  width: 1440px;
   height: 732px;
   flex-direction: column;
   align-items: center;
   padding: 120px;
 }
 .our-team-h2 ul {
-  gap: 32px;
+  gap: 24px;
   display: flex;
   align-items: center;
   padding-top: 72px;
@@ -251,12 +252,10 @@ h1 {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  width: 1440px;
   height: 72px;
 }
 .our-portfolio-container {
   text-align: center;
-  width: 1400px;
   height: 1200px;
   padding-top: 120px;
   text-align: left;
@@ -272,13 +271,12 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
 }
-.portfolio-flex{
+.portfolio-flex {
   column-gap: 24px;
   row-gap: 48px;
 }
 .effective-button-container {
   background-color: #2e2f42;
-  width: 1440px;
   height: 600px;
   text-align: center;
   display: flex;
@@ -358,44 +356,40 @@ h1 {
   gap: 8px;
 }
 .mark-1 {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   height: 380px;
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
-  gap: 32px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 .tom-2 {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   height: 380px;
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
-  gap: 32px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 .camila-3 {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   height: 380px;
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
-  gap: 32px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 .dani-4 {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   height: 380px;
   border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
-  gap: 32px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
