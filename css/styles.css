@@ -51,6 +51,7 @@ body p {
   font-display: #434455;
   font-size: 16px;
 }
+
 .logo-web {
   font-family: "Raleway", "sans-serif";
   font-weight: 700;
@@ -264,7 +265,6 @@ h1 {
   letter-spacing: 2%;
 }
 .header-container {
-  background-color: #e7e9fc;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -273,9 +273,9 @@ h1 {
 }
 .our-portfolio-container {
   text-align: center;
-  height: 1200px;
   padding-top: 120px;
   text-align: left;
+  margin-bottom: 120px;
 }
 .our-h2 {
   display: block;
