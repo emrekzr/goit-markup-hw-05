@@ -15,16 +15,6 @@ li {
   font: inherit;
   vertical-align: baseline;
 }
-.icon-path {
-  fill: red;   /* Simgelerin rengini kırmızı yapar */
-  stroke: blue; /* Çizgi rengini mavi yapar */
-  stroke-width: 2; /* Çizgi kalınlığını 2px yapar */
-}
-.icon-strategy {
-  height: auto;  
-  fill: #333;  
-}
-
 .container{
   width: 1158px;
 }
@@ -319,7 +309,7 @@ h1 {
 }
 .effective-button-container {
   height: 600px;
-  background-image: linear-gradient( to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/people-office.jpg");
+  background-image: linear-gradient( to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("https://emrekzr.github.io/goit-markup-hw-04/images/people-office.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
