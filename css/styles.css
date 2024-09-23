@@ -168,7 +168,7 @@ h1 {
   font-weight: 700;
   line-height: 3.75rem;
   max-width: 496px;
-  padding-bottom:48px
+  padding-bottom:40px
 }
 .main-menu a {
   font-family: "Roboto", "sans-serif";
@@ -504,6 +504,32 @@ h1 {
 }
 .footer-logo-text {
   display: block; 
+}
+.banking-1 {
+  position: relative;
+}
+
+.normal-image {
+  display: block;
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+}
+
+.banking-1:hover .hover-image {
+  opacity: 1; 
+  
+}
+
+.banking-1:hover .normal-image {
+  opacity: 0; 
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
                       
