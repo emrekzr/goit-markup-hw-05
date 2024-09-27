@@ -306,9 +306,11 @@ h1 {
   padding-top: 120px;
   text-align: left;
   margin-bottom: 120px;
+  
 }
 .second-portfolio{
-  padding-top: 40px;
+  margin-top: 40px;
+  
 }
 .our-h2 {
   display: block;
@@ -321,9 +323,15 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
 }
-.portfolio-flex{
-  column-gap: 24px;
-  row-gap: 48px;
+.portfolio-flex li :hover{
+  box-shadow: 0px 2px 1px 0px #2E2F4214;
+  box-shadow: 0px 1px 1px 0px #2E2F4229;
+
+  box-shadow: 0px 1px 6px 0px #2E2F4214;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 360px;
+  height: 420px;
 }
 .our-portfolio-container p{
   font-family: "Roboto", "sans-serif";
@@ -603,4 +611,24 @@ h1 {
 }                      
 .online-6:hover .hover-content {
   opacity: 1;
-}                      
+} 
+.banking-1:hover {
+  box-shadow: 2px 2px 0px 0px #2e2f4214;
+}
+.cashless-2:hover {
+  box-shadow: 2px 2px 0px 0px #2e2f4214;
+}
+.meditation-3:hover {
+  box-shadow: 2px 2px 0px 0px #2e2f4214;
+}
+.taxi-4:hover {
+  box-shadow: 2px 2px 0px 0px #2e2f4214;
+}
+.screen-5:hover {
+  box-shadow: 2px 2px 0px 0px #2e2f4214;
+}
+.online-6:hover {
+  box-shadow: 2px 2px 0px 0px #2e2f4214;
+}
+
+                     
