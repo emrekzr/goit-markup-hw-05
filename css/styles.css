@@ -109,6 +109,8 @@ body p {
   color: #ffffff;
   cursor: pointer;
   text-align: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .service-info-sec {
   display: flex;
@@ -184,6 +186,8 @@ h1 {
   font-size: 1rem;
   line-height: 1.5rem;
   display: inline;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-menu a::after {
   content: '';          
@@ -197,6 +201,8 @@ h1 {
 }
 .main-menu a:hover::after {
   width: 100%;     
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .class-studio:active {
   font-family: "Roboto", "sans-serif";
@@ -290,6 +296,7 @@ h1 {
   letter-spacing: 2%;
 }
 .header-container {
+  max-width: 1440px;
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   text-align: center;
@@ -297,6 +304,7 @@ h1 {
   justify-content: space-around;
   padding: 20px;
   height: 72px;
+  margin: 0 auto;
 }
 .our-portfolio-container {
   text-align: center;
@@ -323,10 +331,9 @@ h1 {
 .portfolio-flex li :hover{
   box-shadow: 0px 2px 1px 0px #2E2F4214;
   box-shadow: 0px 1px 1px 0px #2E2F4229;
-
   box-shadow: 0px 1px 6px 0px #2E2F4214;
-
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   width: 360px;
   height: 420px;
 }
