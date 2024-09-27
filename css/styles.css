@@ -292,8 +292,9 @@ h1 {
 .header-container {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
+  text-align: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
   height: 72px;
 }
@@ -351,7 +352,17 @@ h1 {
 .icon-social{
   margin-top: 16px;
 }
+.icon {
+  border: 2px dashed #2a2a2a;
+  border-radius: 8px;
+  fill: #2a2a2a;
+}
+
+.icon:hover {
+  fill: #03a9f4;
+}
 .effective-button {
+  max-width: 1440px;
   height: 600px;
   background-image: linear-gradient( to bottom, rgba(47, 48, 66, 0.7), rgba(47, 48, 66, 0.7)), url("https://emrekzr.github.io/goit-markup-hw-04/images/people-office.jpg");
   background-size: cover;
@@ -363,6 +374,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   isolation: isolate;
+  margin: 0 auto;
 }
 .main-menu {
   display: flex;
