@@ -292,12 +292,11 @@ h1 {
   letter-spacing: 2%;
 }
 .our-team-icon{
-  fill: #4d5ae5;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-team-icon :hover{
-  fill: #f4f4fd;
+  --color1: #F4F4FD;
 }
 .header-container {
   max-width: 1440px;
