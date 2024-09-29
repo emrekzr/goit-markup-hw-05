@@ -296,7 +296,7 @@ h1 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-team-icon :hover{
-  --color1: #F4F4FD;
+  --color2: #F4F4FD;
 }
 .header-container {
   max-width: 1440px;
