@@ -291,13 +291,14 @@ h1 {
   line-height: 24px;
   letter-spacing: 2%;
 }
-.our-team-icon path {
-  fill: var(--color2, #f4f4fd);
+.our-team-icon {
+  fill: #4d5ae5;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
 }
-
-/* Hover durumunda yeni renk tanımları */
-.our-team-icon:hover path {
-  fill: #31D0AA; /* Renk değişimi için istediğiniz renk */
+.our-team-icon :hover {
+  fill: #404bbf;
 }
 .header-container {
   max-width: 1440px;
