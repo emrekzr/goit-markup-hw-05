@@ -291,14 +291,13 @@ h1 {
   line-height: 24px;
   letter-spacing: 2%;
 }
+
 .our-team-icon {
-  fill: #4d5ae5;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: fill;
+  transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.our-team-icon :hover {
-  fill: #404bbf;
+
+.our-team-icon:hover {
+    fill: #31d0aa; 
 }
 .header-container {
   max-width: 1440px;
