@@ -294,6 +294,9 @@ h1 {
 .team-icons:hover{
  
 }
+a{
+  text-decoration: none;
+}
 .our-team-icon {
   width: 40px;
   height: 40px;
@@ -301,7 +304,7 @@ h1 {
   fill: #4D5AE5;
 }
 
-.our-team-icon::-webkit-outer-spin-button {
+.our-team-icon:hover {
   fill: #31D0AA;
 }
 .header-container {
