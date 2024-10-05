@@ -292,7 +292,7 @@ h1 {
   letter-spacing: 2%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 .social-icon {
@@ -301,7 +301,7 @@ a{
 }
 
 .social-icon:hover {
-  --color5: #03a9f4; 
+  --color5: #03a9f4;
 }
 
 .header-container {
