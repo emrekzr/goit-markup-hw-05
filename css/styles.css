@@ -291,22 +291,19 @@ h1 {
   line-height: 24px;
   letter-spacing: 2%;
 }
-.team-icons:hover{
- 
-}
+
 a{
   text-decoration: none;
 }
 .social-icon {
-  width: 40px;
-  height: 40px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #4D5AE5;
+  --color1: #f4f4fd;
+  --color5: #4d5ae5;
 }
 
 .social-icon:hover {
-  fill: #31D0AA;
+  --color5: #03a9f4; 
 }
+
 .header-container {
   max-width: 1440px;
   border-bottom: 1px solid #e7e9fc;
