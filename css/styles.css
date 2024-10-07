@@ -656,6 +656,73 @@ a {
 .footer-icon:hover {
   fill: #31d0aa;
 }
+.modal-window-footer-container {
+  width: 453px;
+  height: 80px;
+}
+.subscribe-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: white;
+}
+
+.footer-form {
+  display: flex;
+}
+.footer-email {
+  width: 264px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: white;
+  background-color: transparent;
+  border: 1px, solid, white;
+  border-radius: 4px;
+  padding-left: 12px;
+  position: relative;
+  top: 20px;
+}
+
+.footer-email::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  width: 36px;
+  height: 24px;
+  color: white;
+}
+
+.subscribe-button {
+  width: 165px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  cursor: pointer;
+  color: white;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.icon-paper-plane {
+  position: relative;
+  top: 28px;
+  right: 50px;
+  cursor: pointer;
+}
 
 .modal-window-container {
   width: 100%;
