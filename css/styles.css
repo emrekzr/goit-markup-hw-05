@@ -660,6 +660,7 @@ a {
   width: 453px;
   height: 80px;
   margin-bottom: 25px;
+  margin-left: 40px;
 }
 .subscribe-text {
   font-weight: 500;
@@ -730,7 +731,8 @@ a {
   height: 100%;
   position: fixed;
   left: 0;
-  top: 10%;
+  top: 0;
+  background-color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-window {
