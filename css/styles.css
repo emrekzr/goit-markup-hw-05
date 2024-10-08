@@ -659,6 +659,7 @@ a {
 .modal-window-footer-container {
   width: 453px;
   height: 80px;
+  margin-bottom: 25px;
 }
 .subscribe-text {
   font-weight: 500;
@@ -975,11 +976,6 @@ a {
 
 .information-personal:focus + .information-icons {
   fill: #4d5ae5;
-}
-
-.footer-form {
-  width: 453px;
-  height: 80px;
 }
 
 .subscribe-text {
