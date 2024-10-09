@@ -731,7 +731,7 @@ a {
   height: 100%;
   position: fixed;
   left: 0;
-  top: 10%;
+  top: 0;
   background-color: rgba(46, 47, 66, 0.4);
 }
 
@@ -741,9 +741,11 @@ a {
   border: none;
   border-radius: 4px;
   background-color: #fcfcfc;
-  margin: 0 auto;
-  padding-top: 10px;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 20%;
+  left: 39.3%;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .icon-x {
