@@ -731,7 +731,7 @@ a {
   height: 100%;
   position: fixed;
   left: 0;
-  top: 0;
+  top: 10%;
   background-color: rgba(46, 47, 66, 0.4);
 }
 
